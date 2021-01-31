@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0px;
+}
+
+.line {
+    width: 60px;
+    height: 3px;
+    background-color: #dd7f13;
+    margin: 6px auto 8px;
+}
+
+.left-line {
+    width: 60px;
+    height: 3px;
+    background-color: #dd7f13;
+    margin: 0px 0px 30px 15%;
+}
+
+
+/* start upper bar  */
+
+.upper-bar {
+    background: rgb(34, 34, 90);
+    background: radial-gradient(circle, rgba(34, 34, 90, 1) 22%, rgba(45, 12, 115, 1) 71%, rgba(41, 10, 84, 1) 92%);
+    color: #fff;
+}
+
+.upper-bar .info {
+    margin: 15px 0px;
+}
+
+.upper-bar p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.upper-bar p i {
+    font-size: 18px;
+    color: rgb(219, 216, 216);
+}
+
+.upper-bar p i:hover {
+    color: #fff;
+}
+
+.upper-bar .btn-top-upper-nav {
+    color: #dd7f13;
+    background-color: transparent;
+    border: 2px solid rgb(221, 127, 19);
+    font-size: 17px;
+    font-weight: 600;
+    transition: .4s all ease-in-out;
+}
+
+.upper-bar .btn-top-upper-nav:hover {
+    background-color: rgb(221, 127, 19);
+    color: rgb(34, 34, 90);
+}
+
+@media(max-width:575px) {
+    .upper-bar .info {
+        margin: 5px 0px;
+    }
+    .info p {
+        margin-top: 10px;
+    }
+}
+
+
+/* end upper bar  */
+
+
+/* start navbar  */
+
+.navbar-brand {
+    font-size: 27px;
+}
+
+.navbar-brand span:first-child {
+    color: rgb(221, 127, 19);
+    font-weight: 700;
+}
+
+.navbar-brand span:nth-child(2) {
+    color: #22225a;
+}
+
+.navbar-nav .active>.nav-link {
+    color: rgb(221, 127, 19)!important;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(136, 128, 128)!important;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(221, 127, 19)!important;
+}
+
+
+/* end navbar  */
+
+
+/* start profile */
+
+.profile-title {
+    background-color: #22225a;
+    color: #fff;
+    margin-top: 10px;
+    padding: 20px 0px;
+}
+
+.profile-title h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.photo .profile-image {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: 40px;
+}
+
+
+/* end profile */
+
+
+/* start enrolled courses */
+
+.enrolled-courses .heading-enrolled {
+    font-size: 25px;
+    font-weight: 600;
+    color: #22225a;
+    margin: 20px 0px 35px;
+}
+
+.course-card {
+    transition: box-shadow .4s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.course-card:hover {
+    -webkit-box-shadow: 2px 1px 19px 1px rgba(49, 49, 92, 1);
+    -moz-box-shadow: 2px 1px 19px 1px rgba(49, 49, 92, 1);
+    box-shadow: 2px 1px 19px 1px rgba(49, 49, 92, 1);
+}
+
+.course-card img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.enrolled-courses {
+    text-align: center;
+}
+
+.enrolled-courses .course-title .course-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #22225a;
+}
+
+.enrolled-courses .course-title .course-name a {
+    color: #22225a;
+    transition: color .3s ease-in-out;
+}
+
+.enrolled-courses .course-title .course-name a:hover {
+    text-decoration: none;
+    color: #dd7f13;
+}
+
+.enrolled-courses .course-title span {
+    color: rgb(133, 128, 128);
+}
+
+.enrolled-courses .course-details p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.enrolled-courses .view-details {
+    background-color: #1c1c41;
+    color: #fff;
+    border: 0;
+    outline: none;
+    padding: 5px 13px;
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    margin: 20px auto 30px;
+    transition: background-color .3s ease-in-out;
+}
+
+.enrolled-courses .view-details:hover {
+    background-color: #22225a;
+}
+
+
+/* end enrolled courses */
+
+
+/* pagination */
+
+.pagination-bottom li a {
+    color: #22225a;
+}
+
+.pagination-bottom li a:hover {
+    background-color: #dd7f13;
+    color: #22225a;
+}
+
+
+/* pagination */
+
+
+/* start footer */
+
+.footer {
+    padding: 80px 0px 40px;
+}
+
+.footer .web-info>span {
+    font-size: 30px;
+}
+
+.footer .web-info span:first-of-type {
+    color: #dd7f13;
+    font-weight: 700;
+}
+
+.footer .web-info span:last-of-type {
+    color: rgb(34, 34, 90);
+    font-weight: 700;
+}
+
+.footer .web-info span {
+    display: inline-block;
+    margin-bottom: 21px;
+}
+
+.footer .web-info p {
+    line-height: 1.8;
+    font-size: 17px;
+    color: #424040;
+}
+
+.footer .web-info a {
+    color: #1c1c41;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer .web-info a::before {
+    font-family: "FontAwesome";
+    content: "\f138";
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.footer .help-links li {
+    cursor: pointer;
+}
+
+.footer .help-links h2,
+.footer .contact-me h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1c1c41;
+    margin-bottom: 33px;
+}
+
+.footer .help-links ul li::before {
+    font-family: "FontAwesome";
+    content: "\f054";
+    margin-right: 7px;
+    color: #22225a;
+    font-size: 12px;
+}
+
+.footer .contact-me ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer .contact-me ul li a {
+    font-size: 13px;
+}
+
+
+/* end footer */
+
+
+/* start copy right */
+
+.copy-right {
+    border-top: 1px solid rgb(187, 184, 184);
+    padding: 30px;
+}
+
+.copy-right ul li {
+    display: inline-block;
+}
+
+.copy-right ul li a {
+    display: inline-block;
+    color: #424040;
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.copy-right ul li .fa-twitter:hover {
+    color: #38acf3;
+}
+
+.copy-right ul li .fa-facebook:hover {
+    color: #1877f2;
+}
+
+.copy-right ul li .fa-youtube:hover {
+    color: #ff0000;
+}
+
+.copy-right ul li .fa-instagram:hover {
+    color: #833ab4;
+}
+
+.copy-right span {
+    color: #1c1c41;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* end copy right */
+
+
+/* ======================================================================= */
